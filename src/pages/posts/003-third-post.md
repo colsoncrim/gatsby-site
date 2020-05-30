@@ -1,8 +1,9 @@
 ---
-title: "Third Post - Express Routing"
+title: "Third Post - Javascript vs Typescript"
 date: 2020-05-15 11:00:00
 author: "John Doe"
 path: '/third-post'
+image: ../../images/js_ts.png
 ---
 
-Today we are going to talk about express routing and how much fun it is. Today we are going to talk about express routing and how much fun it is. Today we are going to talk about express routing and how much fun it is. Today we are going to talk about express routing and how much fun it is. Today we are going to talk about express routing and how much fun it is. Today we are going to talk about express routing and how much fun it is. Today we are going to talk about express routing and how much fun it is. Today we are going to talk about express routing and how much fun it is.
+What are the core differences between Javascript and Typescript? What are the core differences between Javascript and Typescript? What are the core differences between Javascript and Typescript? What are the core differences between Javascript and Typescript? What are the core differences between Javascript and Typescript? What are the core differences between Javascript and Typescript? What are the core differences between Javascript and Typescript? What are the core differences between Javascript and Typescript? What are the core differences between Javascript and Typescript?
