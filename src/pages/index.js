@@ -10,7 +10,7 @@ import Sidebar from "../components/Sidebar"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Mock Blog Website</h1>
+    <h1>Coding Blog</h1>
     <Row>
       <Col md="8">
         <StaticQuery query={indexQuery} render={data => {
@@ -18,9 +18,10 @@ const IndexPage = () => (
           <div>
             {data.allMarkdownRemark.edges.map(({ node }) => (
               <Post 
+                key={node.id}
                 title={node.frontmatter.title} 
                 author={node.frontmatter.author} 
-                path={node.frontmatter.path} 
+                slug={node.fields.slug} 
                 date={node.frontmatter.date}
                 body={node.excerpt}
                 fluid={node.frontmatter.image.childImageSharp.fluid}
@@ -49,7 +50,6 @@ const indexQuery = graphql`
             title 
             date(formatString: "MMM Do YYYY")
             author
-            path
             tags
             image{
               childImageSharp{
@@ -58,6 +58,9 @@ const indexQuery = graphql`
                 }
               }
             }
+          }
+          fields {
+            slug
           }
           excerpt
         }

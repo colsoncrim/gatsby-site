@@ -2,7 +2,6 @@
 title: "Second Post - React"
 date: 2020-05-15 10:00:00
 author: "Jane Doe"
-path: '/second-post'
 image: ../../images/react.png
 tags: 
 - frontend
