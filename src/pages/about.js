@@ -5,10 +5,9 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const AboutPage = () => (
-  <Layout>
+  <Layout pageTitle="About Us">
     <SEO title="About" />
     <div className='container'>
-    <h1>About Us</h1>
     <p>I'm baby jianbing tumblr stumptown keffiyeh brooklyn squid migas try-hard. Wayfarers 
        pitchfork subway tile church-key typewriter kitsch pinterest chambray kinfolk tbh poke 
        swag iPhone venmo. Tattooed kinfolk gluten-free glossier fingerstache scenester. Ennui ugh 
@@ -35,7 +34,6 @@ const AboutPage = () => (
        hoodie plaid knausgaard glossier pour-over cardigan. Meggings meditation 8-bit heirloom farm-to-table, 
        knausgaard chillwave woke. Skateboard williamsburg hexagon sustainable poke. Hammock roof party organic 
        echo park, blog gluten-free etsy hell of schlitz typewriter fixie lyft cray beard.</p>
-    <Link to="/">Go back to the homepage</Link>
     </div>
   </Layout>
 )

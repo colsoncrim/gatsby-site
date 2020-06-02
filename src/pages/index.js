@@ -3,16 +3,11 @@ import { graphql, StaticQuery } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Post from "../components/Post"
-import { Row, Col } from 'reactstrap'
-import Sidebar from "../components/Sidebar"
 
 
 const IndexPage = () => (
-  <Layout>
+  <Layout pageTitle="Coding Blog">
     <SEO title="Home" />
-    <h1>Coding Blog</h1>
-    <Row>
-      <Col md="8">
         <StaticQuery query={indexQuery} render={data => {
         return (
           <div>
@@ -31,11 +26,6 @@ const IndexPage = () => (
           </div>
         )
       }}/>
-      </Col>
-      <Col md="4">
-        <Sidebar/>
-      </Col>
-    </Row>
   </Layout>
 )
 
