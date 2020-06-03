@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaFacebookF, FaTwitter, FaInstagram, FaGoogle, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => (
     <div className="site-footer">
@@ -15,7 +16,7 @@ const Footer = () => (
                         target="_blank" 
                         rel="noopener noreferrer"
                     >
-                        <i className="fab fa-facebook-f fa-2x"/>
+                        <FaFacebookF />
                     </a>
                 </li>
                 <li>
@@ -25,7 +26,7 @@ const Footer = () => (
                         target="_blank" 
                         rel="noopener noreferrer"
                     >
-                        <i className="fab fa-twitter fa-2x" />
+                        <FaTwitter />
                     </a>
                 </li>
                 <li>
@@ -35,7 +36,7 @@ const Footer = () => (
                         target="_blank" 
                         rel="noopener noreferrer"
                     >
-                        <i className="fab fa-instagram fa-2x" />
+                        <FaInstagram />
                     </a>
                 </li>
                 <li>
@@ -45,7 +46,7 @@ const Footer = () => (
                         target="_blank" 
                         rel="noopener noreferrer"
                     >
-                        <i className="fab fa-google fa-2x" />
+                        <FaGoogle />
                     </a>
                 </li>
                 <li>
@@ -55,7 +56,7 @@ const Footer = () => (
                         target="_blank" 
                         rel="noopener noreferrer"
                     >
-                        <i className="fab fa-linkedin fa-2x" />
+                        <FaLinkedin />
                     </a>
                 </li>
             </ul>

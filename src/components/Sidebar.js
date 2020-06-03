@@ -2,6 +2,7 @@ import React from 'react'
 import { Card, CardTitle, CardBody, CardText, Form, FormGroup, Input, Button } from 'reactstrap'
 import { graphql, StaticQuery, Link } from 'gatsby'
 import Img from 'gatsby-image'
+import { FaFacebookF, FaTwitter, FaInstagram, FaGoogle, FaLinkedin } from 'react-icons/fa';
 
 const Sidebar = ({ author, authorFluid }) => (
     <div>  
@@ -13,11 +14,11 @@ const Sidebar = ({ author, authorFluid }) => (
                     <CardText>{author.bio}</CardText>
                     <div className="author-social-links text-center">
                         <ul>
-                            <li><a href={author.facebook} target="_blank" rel="noopener noreferrer" className="facebook" className="fab fa-facebook-f fa-lg"></a></li>
-                            <li><a href={author.twitter} target="_blank" rel="noopener noreferrer" className="twitter" className="fab fa-twitter fa-lg"></a></li>
-                            <li><a href={author.instagram} target="_blank" rel="noopener noreferrer" className="instagram" className="fab fa-instagram fa-lg"></a></li>
-                            <li><a href={author.google} target="_blank" rel="noopener noreferrer" className="google" className="fab fa-google fa-lg"></a></li>
-                            <li><a href={author.linkedin} target="_blank" rel="noopener noreferrer" className="linkedin" className="fab fa-linkedin fa-lg"></a></li>
+                            <li><a href={author.facebook} target="_blank" rel="noopener noreferrer" className="facebook" className="fab fa-facebook-f fa-lg">< FaFacebookF /></a></li>
+                            <li><a href={author.twitter} target="_blank" rel="noopener noreferrer" className="twitter" className="fab fa-twitter fa-lg"><FaTwitter /></a></li>
+                            <li><a href={author.instagram} target="_blank" rel="noopener noreferrer" className="instagram" className="fab fa-instagram fa-lg"><FaInstagram /></a></li>
+                            <li><a href={author.google} target="_blank" rel="noopener noreferrer" className="google" className="fab fa-google fa-lg"><FaGoogle /></a></li>
+                            <li><a href={author.linkedin} target="_blank" rel="noopener noreferrer" className="linkedin" className="fab fa-linkedin fa-lg"><FaLinkedin /></a></li>
                         </ul>
                     </div>
                 </CardBody>
