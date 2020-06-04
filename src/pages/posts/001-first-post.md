@@ -1,6 +1,6 @@
 ---
-title: "First Post - Introduction"
-date: 2020-05-15 09:00:00
+title: "Introduction"
+date: 2020-05-15 07:00:00
 author: "John Doe"
 image: ../../images/random_code.jpg
 tags: 

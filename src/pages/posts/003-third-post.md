@@ -1,8 +1,8 @@
 ---
-title: "Third Post - Javascript vs Typescript"
-date: 2020-05-15 11:00:00
+title: "Typescript vs Javascript"
+date: 2020-05-15 09:00:00
 author: "John Doe"
-image: ../../images/js_ts.png
+image: ../../images/ts_js.png
 tags: 
 - code
 - javascript

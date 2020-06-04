@@ -1,6 +1,6 @@
 ---
-title: "Second Post - React"
-date: 2020-05-15 10:00:00
+title: "React"
+date: 2020-05-15 08:00:00
 author: "Jane Doe"
 image: ../../images/react.png
 tags: 
